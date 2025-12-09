@@ -17,7 +17,7 @@ from tqdm import tqdm
 from PIL import Image, ImageOps
 import openslide as openslide
 from collections import OrderedDict
-from utils import build_model_and_path, load_app_config, ensure_dir, check_input_valid
+from tube_utils import build_model_and_path, load_app_config, ensure_dir, check_input_valid
 
 def get_custom_ss1(cfg):
     """ Custom because it specific to how this task is done in AI-sTIL"""

@@ -7,7 +7,7 @@
   "batch_size": 32,
   "epochs": 50,
   "tissue_threshold":0.0,
-  "tumor_bed_threshold":0.5,
+  "tumor_bed_threshold":0.50,
   "training_data": ["luad","lusc"],
   "decoder_params": {
     "embed_dim": 256, 
