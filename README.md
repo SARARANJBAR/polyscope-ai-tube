@@ -39,11 +39,15 @@ See `config.json` for full details.
 ```
 models/
 └── m2f_mitb5_input-512_epochs-50_queries-8_epoch_50
-    ├── model.pth        # torch model (**NEED TO BE PLACED HERE MANUALLY**)
-    └── config.json      # Model parameters, labels, architecture
+    ├── model.pth    # Model object (**NEED TO BE PLACED HERE MANUALLY**)
+    └── config.json   # Model parameters, labels, architecture
 ```
 
-path to model.pth : `/rsrch9/home/plm//idso_fa1_pathology/codes/sranjbar/polyscope_tube/polyscope-ai-tube/models/m2f_mitb5_input-512_epochs-50_queries-8_epoch_50/model.pth`
+path to model.pth : 
+```
+/rsrch9/home/plm//idso_fa1_pathology/codes/sranjbar/polyscope_tube/polyscope-ai-tube/models/m2f_mitb5_input-512_epochs-50_queries-8_epoch_50/model.pth
+
+```
 
 The model supports the following classes:
 ```yaml
