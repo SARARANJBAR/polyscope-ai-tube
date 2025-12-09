@@ -1,5 +1,5 @@
 # command-line interface for Tube Model deployment in Polyscope 
-This repository hosts the code for **Polyscope** deployment of tube model for tumor bed segmentation using deep learning models.
+This repository hosts the code intended for standalone deployment of tube model in any environmet  including polyscope (need's adjustment).
 
 ## Directory Structure
 ```
