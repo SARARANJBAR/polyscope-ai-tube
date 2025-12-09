@@ -1,0 +1,34 @@
+{
+  "name": "mask2former",
+  "backbone": "nvidia/mit-b5",
+  "patch_gen_size": "512x3",
+  "input_size": 512,
+  "stride_factor": 3,
+  "batch_size": 32,
+  "epochs": 50,
+  "tissue_threshold":0.0,
+  "tumor_bed_threshold":0.5,
+  "training_data": ["luad","lusc"],
+  "decoder_params": {
+    "embed_dim": 256, 
+    "num_queries": 8, 
+    "num_layers": 4, 
+    "nheads": 8,
+    "in_channels": [64, 128, 320,  512]
+  },
+  "decoder": "Mask2FormerLite",
+  "id2label": {
+    "0": "Non tissue",
+    "1": "Tumor Bed"
+  },
+  "label2id": {
+    "Non tissue": 0,
+    "Tumor Bed": 1
+  },
+  "id2color": {
+    "0": "#000000",
+    "1": "#ffff00"
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.36.2"
+}
