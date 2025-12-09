@@ -43,7 +43,7 @@ models/
     └── config.json   # Model parameters, labels, architecture
 ```
 
-path to model.pth : 
+Find the `model.pth` file from below and place it in the above location on your side: 
 ```
 /rsrch9/home/plm//idso_fa1_pathology/codes/sranjbar/polyscope_tube/polyscope-ai-tube/models/m2f_mitb5_input-512_epochs-50_queries-8_epoch_50/model.pth
 
