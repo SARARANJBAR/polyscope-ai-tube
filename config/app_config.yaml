@@ -1,0 +1,3 @@
+model_dir: models
+tube_model_type: mask2former
+tube_ckpt: m2f_mitb5_input-512_epochs-50_queries-8_epoch_50
