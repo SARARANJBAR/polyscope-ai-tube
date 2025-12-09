@@ -55,7 +55,7 @@ id2label:
   0: Non tissue
   1: Tumor
 ```
-<img src="./docs/tube_color_legend.png" alt="Tumor Bed Segmentation Color Legend" width="75%">
+<img src="./docs/tube_color_legend.png" alt="Tumor Bed Segmentation Color Legend" width="50%">
 
 Segmentation colors are defined in `<checkpoint>/config.json` if you need to change them. 
 
