@@ -1,4 +1,5 @@
 # command-line interface for Tube Model deployment in Polyscope 
+This repository hosts the code for **Polyscope** deployment of tube model for tumor bed segmentation using deep learning models.
 
 ## Directory Structure
 ```
@@ -19,7 +20,8 @@
 ├── tube_processor.py         # Tube processing logic 
 ├── tube_utils.py             # utility functions
 ```
-This repository hosts the code for **Polyscope** deployment of tube model for tumor bed segmentation using deep learning models.
+
+
 ---
 
 ## AI Model Architecture
