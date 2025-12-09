@@ -39,7 +39,7 @@ See `config.json` for full details.
 ```
 models/
 └── m2f_mitb5_input-512_epochs-50_queries-8_epoch_50
-    ├── model.pth        # torch model (*YOU WILL NEED TO PLACE THIS MANUALLY HERE*)
+    ├── model.pth        # torch model (**NEED TO BE PLACED HERE MANUALLY**)
     └── config.json      # Model parameters, labels, architecture
 ```
 
